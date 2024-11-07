@@ -271,7 +271,7 @@ activities: referral-related
 3. Stats aggregation
 4. Code generation/validation
 
-When updating the referral system, ensure to:
+When updating the referral system, ensure to: @gokul 
 1. Test all changes in development environment
 2. Verify chain integrity
 3. Check reward calculations
@@ -280,4 +280,3 @@ When updating the referral system, ensure to:
 6. Monitor system performance
 7. Backup data before major changes
 
-This checklist covers all the files and components that need to be reviewed when working with the referral system. Would you like me to elaborate on any specific part?
