@@ -7,20 +7,20 @@
 
 // Core User Stats
 
-  xp: number;           // Experience points
-  compute: number;      // Total compute power generated
-  computePower: number; // Current compute power per tap
-  totalTaps: number;    // Total number of taps
-  level: number;        // User's current level
-  gpuLevel: number;     // GPU upgrade level
+  - xp: number;           // Experience points
+  - compute: number;      // Total compute power generated
+  - computePower: number; // Current compute power per tap [not imp ]
+  - totalTaps: number;    // Total number of taps
+  - level: number;        // User's current level
+  - gpuLevel: number;     // GPU upgrade level
 
 
 // GPU Power System
 
-  level: number;        // Current GPU level
-  basePower: number;    // Base compute power
-  upgradeCost: number;  // XP needed for next upgrade
-  cooldownTime: Date;   // Cooldown period after intensive use
+  - level: number;        // Current GPU level
+  - basePower: number;    // Base compute power
+  - upgradeCost: number;  // XP needed for next upgrade
+  - cooldownTime: Date;   // Cooldown period after intensive use
 
 
 #### 1.2 Core Game Loop
@@ -44,18 +44,18 @@
 
 // Level Calculation
 
-  currentXP: number;
-  levelThresholds: number[];
-  computePowerBonus: number[];
+  - currentXP: number;
+  - levelThresholds: number[];
+  - computePowerBonus: number[];
 
 
 // XP Sources
 
-  Tapping,           // Base tapping action
-  Quests,            // Quest completion
-  DailyBonus,        // Daily login bonus
-  Achievements,      // Achievement completion
-  ReferralBonus      // Referral rewards
+  - Tapping,           // Base tapping action
+  - Quests,            // Quest completion
+  - DailyBonus,        // Daily login bonus
+  - Achievements,      // Achievement completion
+  - ReferralBonus      // Referral rewards
 
 
 
@@ -69,94 +69,94 @@
 
 #### 3.1 Referral System
 
-  referralCode: string;      // Unique referral code
-  referredBy: string;        // User who referred current user
-  referrals: string[];       // Users referred by current user
-  referralChain: string[];   // Multi-level referral chain
-  rewardTiers: {            // Reward percentages per tier
-    tier1: 0.10,            // 10% for direct referrals
-    tier2: 0.05,            // 5% for second level
-    tier3: 0.025            // 2.5% for third level
+  - referralCode: string;      // Unique referral code
+  - referredBy: string;        // User who referred current user
+  - referrals: string[];       // Users referred by current user
+  - referralChain: string[];   // Multi-level referral chain
+  - rewardTiers: {            // Reward percentages per tier
+    - tier1: 0.10,            // 10% for direct referrals
+    - tier2: 0.05,            // 5% for second level
+    - tier3: 0.025            // 2.5% for third level
 
 
 #### 3.2 Leaderboard System
 
 
-  daily: LeaderboardData;    // Reset every 24 hours
-  weekly: LeaderboardData;   // Reset every week
-  allTime: LeaderboardData;  // Permanent rankings
+  - daily: LeaderboardData;    // Reset every 24 hours
+  - weekly: LeaderboardData;   // Reset every week
+  - allTime: LeaderboardData;  // Permanent rankings
 
 
- LeaderboardData
-  username: string;
-  xp: number;
-  compute: number;
-  rank: number;
+ - LeaderboardData
+  - username: string;
+  - xp: number;
+  - compute: number;
+  - rank: number;
 
 
 ### 4. Quest & Achievement System
 
 #### 4.1 Quest Types
 
-  Daily = 'daily',
-  Weekly = 'weekly',
-  Twitter = 'twitter',
-  Telegram = 'telegram',
-  Discord = 'discord',
-  Referral = 'referral',
-  Achievement = 'achievement',
-  Level = 'level',
-  Leaderboard = 'leaderboard'
+  - Daily = 'daily',
+  - Weekly = 'weekly',
+  - Twitter = 'twitter',
+  - Telegram = 'telegram',
+  - Discord = 'discord',
+  - Referral = 'referral',
+  - Achievement = 'achievement',
+  - Level = 'level',
+  - Leaderboard = 'leaderboard'
 
-Quest interface
-  title: string;
-  description: string;
-  xpReward: number;
-  type: QuestType;
-  action: QuestAction;
-  requirement: number;
-  expiresAt: Date;
+#### Quest interface
+  - title: string;
+  - description: string;
+  - xpReward: number;
+  - type: QuestType;
+  - action: QuestAction;
+  - requirement: number;
+  - expiresAt: Date;
 
 
 #### 4.2 Achievement System
 
-  id: string;
-  name: string;
-  description: string;
-  xpReward: number;
-  requirement: number;
-  type: AchievementType;
+  - id: string;
+  - name: string;
+  - description: string;
+  - xpReward: number;
+  - requirement: number;
+  - type: AchievementType;
 
 
-AchievementType 
-  Tap = 'tap',
-  Social = 'social',
-  Referral = 'referral',
-  Level = 'level',
-  Login = 'login',
-  Customization = 'customization',
-  Mining = 'mining',
-  Leaderboard = 'leaderboard'
+  - AchievementType 
+  - Tap = 'tap',
+  - Social = 'social',
+  - Referral = 'referral',
+  - Level = 'level',
+  - Login = 'login',
+  - Customization = 'customization',
+  - Mining = 'mining',
+  - Leaderboard = 'leaderboard'
 
 
 ### 5. Reward & Boost Systems
 
 #### 5.1 Boost Mechanics
 
-  boostCount: number;        // Available boosts
-  boostDuration: number;     // Duration in seconds (10)
-  tapsPerSecond: number;     // Automated taps during boost (10)
-  lastBoostTime: Date;       // Timestamp of last boost
-  cooldownPeriod: number;    // Cooldown after boost
+  - boostCount: number;        // Available boosts
+  - boostDuration: number;     // Duration in seconds (10)
+  - tapsPerSecond: number;     // Automated taps during boost (10)
+  - lastBoostTime: Date;       // Timestamp of last boost
+  - cooldownPeriod: number;    // Cooldown after boost
 
 
 #### 5.2 Reward Distribution
 
-  baseReward: number;          // Base XP per tap
-  comboMultiplier: number;     // Bonus for consecutive taps
-  referralBonus: number;       // Bonus from referral chain
-  questRewards: number;        // Rewards from quests
-  achievementBonus: number;    // One-time achievement rewards
+  - baseReward: number;          // Base XP per tap
+  - comboMultiplier: number;     // Bonus for consecutive taps
+  - referralBonus: number;       // Bonus from referral chain
+  - questRewards: number;        // Rewards from quests
+  - achievementBonus: number;    // One-time achievement rewards
 
 
 ### 6. Business Logic Rules
