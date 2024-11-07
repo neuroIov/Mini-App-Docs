@@ -239,6 +239,4 @@ interface RateLimits {
 - Referral chain validation
 - Reward distribution logs
 
-This documentation outlines the core business and game logic implemented in the NeuroIov Telegram micro-app. The system is designed to create an engaging user experience while maintaining fair play and reward distribution.
 
-Would you like me to elaborate on any specific aspect or provide more detailed technical specifications for any component?
