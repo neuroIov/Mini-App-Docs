@@ -73,6 +73,4 @@
 - Performance optimization
 - Regular backups
 
-This system forms a core part of our user acquisition and retention strategy, driving organic growth through community engagement and rewards.
 
-End of Summary
