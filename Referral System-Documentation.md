@@ -162,4 +162,3 @@ Available statistics:
 4. Fixed reward percentages
 5. Cannot skip chain levels
 
-This documentation reflects the current implementation of the Neurolov Compute Bot's referral system as shown in the codebase. For system updates or modifications, please consult the development team.
