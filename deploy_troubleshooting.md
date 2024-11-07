@@ -254,9 +254,4 @@ const validateReferralInput = (req, res, next) => {
 };
 ```
 
-These three documents together provide:
-1. System Overview & Business Logic (first document)
-2. Technical Implementation Details (second document)
-3. Deployment, Maintenance & Troubleshooting (this document)
 
-This comprehensive set of documentation should give the team everything they need to understand, maintain, and troubleshoot the referral system. Would you like me to explain any specific part in more detail?
