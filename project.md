@@ -160,4 +160,4 @@ NEUROLOV is a gamified mobile application that engages users through a tapping m
    - Set up a ticketing system for user support
    - Maintain a knowledge base for common issues and FAQs
 
-This documentation provides a comprehensive overview of the NEUROLOV project, covering all aspects from development to deployment and maintenance. It should serve as a valuable resource for both the development team and end-users.
+
