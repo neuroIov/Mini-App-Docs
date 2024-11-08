@@ -1,9 +1,9 @@
-## NeuroIov.ai Telegram Mini-App Development & Stabilization
+# NeuroIov.ai Telegram Mini-App Development & Stabilization
 
 ## Statement of Work (SOW)
 
 ## Prepared by Orlov Innovations Ltd
-# Version 1.0
+## Version 1.0
 08-11-2024
 
 Customer ("Customer"): ORLOV INNOVATIONS LLP
