@@ -111,6 +111,7 @@ B. Daily Rewards System
 - Visual feedback for streak maintenance
 
 C. Referral System Implementation
+- Error 500 is showing while referred [ ios ] 
 - Multi-level referral tracking:
   * Level 1: 10% of earnings
   * Level 2: 5% of earnings
