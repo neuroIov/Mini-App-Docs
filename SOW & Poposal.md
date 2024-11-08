@@ -2,23 +2,23 @@
 
 ## Statement of Work (SOW)
 
-## Prepared by Orlov Innovations Ltd
+### Prepared by Orlov Innovations Ltd
 ## Version 1.0
 08-11-2024
 
-Customer ("Customer"): ORLOV INNOVATIONS LLP
-Address: Plot N. 231, 607, 6th Fl., Haveli Arcade, Sector-11 Gandhinagar (Gujarat), 
-Gandhi Nagar Gandhinagar, Gujarat, 382010 India
-Contact person: [Customer Name, Phone, Email]
+- Customer ("Customer"): ORLOV INNOVATIONS LLP
+- Address: Plot N. 231, 607, 6th Fl., Haveli Arcade, Sector-11 Gandhinagar (Gujarat), 
+- Gandhi Nagar Gandhinagar, Gujarat, 382010 India
+- Contact person: [Customer Name, Phone, Email]
 
-Supplier ("Supplier"): [Your Company Details]
-Address: [Your Company Address]
-Contact person: [Your Name, Phone, Email]
+- Supplier ("Supplier"): [Your Company Details]
+- Address: [Your Company Address]
+- Contact person: [Your Name, Phone, Email]
 
-PROJECT OVERVIEW
+## PROJECT OVERVIEW
 NeuroIov.ai requires comprehensive development, bug resolution, and feature enhancement of their Telegram mini-app focused on compute network gamification. This SOW outlines the complete scope of development, critical fixes, and new feature implementations.
 
-SCOPE OF DELIVERY
+## SCOPE OF DELIVERY
 
 1. Critical System Stabilization
    
