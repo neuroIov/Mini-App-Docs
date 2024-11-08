@@ -1,5 +1,6 @@
 NeuroIov.ai Telegram Mini-App Development & Stabilization
-Statement of Work (SOW)
+
+## Statement of Work (SOW)
 
 Prepared by Orlov Innovations Ltd
 Version 1.0
