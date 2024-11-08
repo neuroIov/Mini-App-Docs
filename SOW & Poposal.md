@@ -1,4 +1,4 @@
-### NeuroIov.ai Telegram Mini-App Development & Stabilization
+## NeuroIov.ai Telegram Mini-App Development & Stabilization
 
 ## Statement of Work (SOW)
 
